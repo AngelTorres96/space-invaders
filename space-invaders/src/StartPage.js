@@ -1,4 +1,5 @@
 import React, {useState} from 'react'; 
+import Username from './Username';
     
 function StartPage() {
 
@@ -19,7 +20,7 @@ function StartPage() {
 
             <div className='row'>
                 <div className='col-md-12'>
-                    
+                    <Username></Username>
                     
                 </div>
 
